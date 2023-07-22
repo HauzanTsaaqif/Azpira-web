@@ -1,0 +1,81 @@
+.container-generate h2{
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.container-ways{
+    margin-top: 10px;
+    width: 90%;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+
+.ways-button{
+    background-color: #D9D9D9;
+    padding: 10px 6px 10px 6px;
+    text-align: left;
+}
+
+.ways-button-blue{
+    background-color: #5CB9E5;
+    padding: 10px 6px 10px 6px;
+    text-align: left;
+}
+
+.desc{
+    text-align: left;
+    margin: 0;
+    margin-bottom: 20px;
+    background-color: #5CB9E5;
+}
+
+.desc p{
+    margin: 0;
+    margin-left: 16px;
+    color: #202020;
+}
+
+.container-desc{
+    text-align: left;
+    margin: 0;
+    margin-bottom: 20px;
+    background-color: #D9D9D9;
+    padding: 8px;
+}
+
+.container-desc p{
+    text-align: left;
+    margin: 0;
+    color: #181818;
+}
+
+.evaluation-button{
+    background-color: #F05455;
+    color: #181818;
+    width: 90%;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.community-button{
+    background-color: #8758FF;
+    color: #181818;
+    width: 90%;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hide{
+    display: none;
+}

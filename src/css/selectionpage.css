@@ -1,0 +1,73 @@
+.selectionpage{
+    padding: 10px;
+    padding-top: 100px;
+}
+
+.container-azfi{
+    margin-top: 0px;
+}
+
+.container-profil{
+    display: flex;
+}
+
+.container-profil h2{
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.chatbox{
+    margin-left: 14%;
+    width: 80%;
+    margin-bottom: 18px;
+}
+
+.message {
+    background-color: #5CB9E5;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    border-radius: 0 10px 10px 10px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.message::before {
+    content: "";
+    border-top: 18px solid transparent;
+    border-left: 30px solid #5CB9E5;
+    margin-left: -10px;
+    z-index: -1;
+  }
+
+.message p{
+    margin: 0;
+    margin-top: -24px;
+    font-weight: 500;
+}
+
+.container-button{
+    width: 100%;
+    text-align: center;
+}
+
+.false-button{
+    background-color: #8758FF;
+    color: #181818;
+    width: 120px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 12px;
+    margin-right: 30px;
+}
+
+.true-button{
+    background-color: #F05455;
+    color: #181818;
+    width: 120px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 12px;
+}

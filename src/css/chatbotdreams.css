@@ -1,0 +1,129 @@
+.chatbotdreams{
+    padding: 10px;
+}
+
+.container-chatbot{
+    height: max-content;
+}
+
+.container-profil{
+    display: flex;
+}
+
+.container-profil h2{
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.re-button{
+    background-color: #8758FF;
+    color: #181818;
+    width: 46%;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.end-button{
+    background-color: #F05455;
+    color: #181818;
+    width: 46%;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.container-end{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 16px;
+    border-top: 2px solid #8758FF;
+    background-color: #f3f3f3;
+}
+
+.message-bar{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.input-message{
+    border: 0;
+    border-bottom: 2px solid #000;
+    font-size: 18px;
+    width: 70%;
+    margin-right: 12px;
+    padding: 10px;
+}
+
+.message-btn{
+    width: max-content;
+    background-color: #31475E;
+    border-radius: 50%;
+    padding: 10px 10px 6px 10px;
+}
+
+.container-user{
+    height: max-content;
+    width: 100%;
+}
+
+.container-profil-user {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px 0 0;
+}
+
+.container-profil-user h2 {
+    margin-right: 10px;   
+    font-size: 19px; 
+}
+
+.message-user {
+    background-color: #5CB9E5;
+    padding: 10px;
+    position: relative;
+    width: 80%;
+    border-radius: 0 10px 10px 10px;
+    margin-top: 10px;
+    margin-left: 0;
+    /* Tambahkan transform untuk memutar elemen horizontal */
+    transform: scaleX(-1);
+}
+
+.message-user::before {
+    content: "";
+    border-top: 18px solid transparent;
+    border-left: 30px solid #5CB9E5;
+    margin-left: -10px;
+    z-index: -1;
+    transform: scaleX(-1);
+  }
+
+.message-user p{
+    margin: 0;
+    margin-top: -24px;
+    font-weight: 500;
+    transform: scaleX(-1);
+}
+
+.akun-dash{
+    display: flex;
+}
+
+.akun-dash h2{
+    font-size: 18px;
+    margin-left: 10px;
+}

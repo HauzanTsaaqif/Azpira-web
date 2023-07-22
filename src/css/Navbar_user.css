@@ -1,0 +1,43 @@
+.usr-navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 2px solid #000000;
+}
+
+
+.icon-navbar{
+    display: flex;
+    align-items: center;
+}
+
+.logo-navbbar {
+    width:  26%;
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+.title-navbar {
+    width: min-content;
+    margin: 0;
+    font-size: 22px;
+    margin-left: 4px;
+}
+
+.usr-navbar a{
+    width: 100%;
+    display: block;
+    justify-content: flex-end;
+}
+
+#usr-avatar{
+    margin-right:40px;
+    padding: 5%;
+    border-radius: 100%;
+    background-color: azure;
+    width: 35px;
+    display: flex;
+    justify-content: flex-end;
+}

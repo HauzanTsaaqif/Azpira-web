@@ -1,0 +1,26 @@
+
+.comNavbar-container{
+    display: flex;
+    background: #5cbae5b6;
+    margin:0;
+}
+
+.comNavbar-container .comNav-lists{
+    font-size: 12px;
+    padding: 0;
+    margin: 2% 4%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.comNavbar-container a{
+    text-decoration: none;
+    color: black;
+}
+
+

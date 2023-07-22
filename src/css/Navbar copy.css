@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    height: 80px;
+    border-bottom: 2px solid #000000;
+    text-align: left;
+}
+
+.icon-navbar{
+    display: flex;
+    align-items: center;
+}
+
+.logo-navbbar {
+    width:  26%;
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+.title-navbar {
+    width: min-content;
+    margin: 0;
+    font-size: 22px;
+    margin-left: 4px;
+}
+
+.login-button{
+    background-color: #5CB9E5;
+    color: #181818;
+    width: 90px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 12px;
+    margin-right: 12px;
+}

@@ -1,0 +1,82 @@
+.upload-photo-form{
+    height: 100vh;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 10%;
+}
+
+.upload-photo-form>input{
+    height: 30px;
+}
+
+.upload-photo-form>#judul{
+    border: none;
+    border-bottom: solid 4px black;
+}
+
+.upload-photo-form>#content-type{
+    height: 4%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border: solid 3px black;
+    background-color: #cccccc1f;
+}
+
+.upload-photo-form>#image-desc{
+    padding: 7%;
+    height: 7rem;
+    border-radius: 30px;
+    text-align: left;
+}
+
+  /* Hide the default file input button */
+  input[type="file"] {
+    display: none;
+  }
+  
+  /* Optional styles for the image */
+  label img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  /* Optional styles for the container */
+  .file-input-container {
+        background-color: #cccccc1f;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 12%;
+        border-radius: 20px;
+        border: solid 2px black;
+  }
+  .confirmation-btns{
+    justify-content: end;
+  }
+
+.confirmation-btns>button{
+    padding: 3% 10%;
+    border-radius: 7px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.confirmation-btns>.upload{
+    background-color: #5CB9E5;
+}
+.confirmation-btns>.cancel{
+    background-color: #8758FF;
+    margin-right: 6%;
+}
+
+.upload-photo-form textarea{
+    background-color: #cccccc1f;
+    border: solid 3px black;
+}
+
+
