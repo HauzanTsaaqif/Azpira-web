@@ -39,7 +39,7 @@ function WaysDream() {
 
         const prompt = "Saya "+ data[0].usia +", jelaskan untuk saya " + finalWord + ", dengan cita- cita saya yaitu " + data[0].cita_cita + "dan tambahkan rekomendasi 1 link vidio youtube yang berkaitan dengan hal tersebut, berikan hanya link saja yang dipisahkan tanda kurung. Jelaskan dengan bahasa " + data[0].pilihan_bahasa;
         const endpoint = "https://api.openai.com/v1/completions";
-        const API_KEY = "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";
+        const API_KEY = "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";
         const model_engine = "text-davinci-003";
 
         axios
@@ -88,7 +88,7 @@ function WaysDream() {
 
     const timer = setTimeout(() => {
       setVisible(false);
-    }, 2000);
+    }, 4000);
       
   return (
     <div className="generateways">

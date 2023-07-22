@@ -7,7 +7,7 @@ function UserNavbar(){
     return <nav className='usr-navbar'>
         <div className='icon-navbar'>
             <img src={logo} className='logo-navbbar'/>
-            <h1 className='title-navbar'>AZFIRA</h1>
+            <h1 className='title-navbar'>AZPIRA</h1>
         </div>
         <div className='navbar-avatar'>
             <Link to="/"><img id = "usr-avatar" src={Usr_NoPict} alt="User Picture" ></img></Link>
