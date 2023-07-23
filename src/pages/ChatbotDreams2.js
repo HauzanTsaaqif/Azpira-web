@@ -29,7 +29,7 @@ function ChatbotDreams() {
         }
       ]);
 
-      const API_KEY = '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';
+      const API_KEY = process.env.AZFI_APP_API_KEY;
       const model_id = 'gpt-3.5-turbo';
     
       const chatgpt_conversation = async (conversationLog) => {
