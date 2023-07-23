@@ -40,7 +40,7 @@ function GenerateWays() {
     console.log(prompt);
 
     const endpoint = "https://api.openai.com/v1/completions";
-    const API_KEY = "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";
+    const API_KEY = "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";
     const model_engine = "text-davinci-003";
 
     axios
