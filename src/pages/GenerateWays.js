@@ -32,7 +32,7 @@ function GenerateWays() {
 
     setLoading2(true);
     if (inputDream === null || inputDream.trim() === '') {
-      alert("Kamu belum memasukkan cita-cita kamu");
+      alert("Kamu belum memasukkan cita-cita kamu.");
     }else{
     setLoading(true);
     const prompt =
