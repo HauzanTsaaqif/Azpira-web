@@ -1,6 +1,7 @@
 import '../css/waysdream.css';
 import FootBar from '../component/Footbar1';
 import NavBar from '../component/Navbar1';
+import GPT3Prompt from '../component/Gpt'
 
 import React, { useState, useEffect  } from 'react';
 import axios from 'axios';
@@ -153,6 +154,7 @@ function WaysDream() {
       </div>
       }
       <FootBar />
+      <GPT3Prompt />
     </div>
   );
 }
