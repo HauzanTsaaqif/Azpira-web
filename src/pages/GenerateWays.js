@@ -16,6 +16,7 @@ function GenerateWays() {
   const [loading, setLoading] = useState(true);
   const [loading2, setLoading2] = useState(false);
   const [data, setData] = useState([]);
+  const api_key = process.env.REACT_APP_API_AZPI;
 
     useEffect(() => {
         fetch(`https://evanescent-evening-range.glitch.me/get-data?username=${username}`)
@@ -40,7 +41,7 @@ function GenerateWays() {
     console.log(prompt);
 
     const endpoint = "https://api.openai.com/v1/completions";
-    const API_KEY = process.env.REACT_APP_API_AZPI;
+    const API_KEY = api_key;
     const model_engine = "text-davinci-003";
 
     axios
