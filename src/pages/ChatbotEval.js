@@ -40,7 +40,7 @@ function ChatbotEval() {
       setCita(data[0].cita_cita)
     }
 
-      const API_KEY = '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';
+      const API_KEY = process.env.AZFI_APP_API_KEY;
       const model_id = 'gpt-3.5-turbo';
     
       const chatgpt_conversation = async (conversationLog) => {
