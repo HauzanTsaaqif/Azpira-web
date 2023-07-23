@@ -40,7 +40,7 @@ function WaysDream() {
 
         const prompt = "Saya "+ data[0].usia +", jelaskan untuk saya " + finalWord + ", dengan cita- cita saya yaitu " + data[0].cita_cita + "dan tambahkan rekomendasi 1 link vidio youtube yang berkaitan dengan hal tersebut, berikan hanya link saja yang dipisahkan tanda kurung. Jelaskan dengan bahasa " + data[0].pilihan_bahasa;
         const endpoint = "https://api.openai.com/v1/completions";
-        const API_KEY = process.env.AZFI_APP_API_KEY;
+        const API_KEY = process.env.REACT_APP_API_AZPI;
         const model_engine = "text-davinci-003";
 
         axios
